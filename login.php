@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "PHW#84#jeor";
-$database = "rfiddatas.admin";
+$database = "rfiddatas";
 
 try {
     // Connect to the database
