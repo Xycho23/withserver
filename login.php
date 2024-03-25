@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "PHW#84#jeor";
-$database = "rfiddatas";
+$database = "rfiddatas"; // Removed .admin
 
 try {
     // Connect to the database
@@ -37,4 +37,4 @@ try {
     // Handle database connection errors
     echo "Connection failed: " . $e->getMessage();
 }
-
+?>
